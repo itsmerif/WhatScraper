@@ -27,13 +27,31 @@ availabledom = ["pastebin",
                 "pastr",
                 "pasteio",
                 "paste2",
-                "paste"]
+                "hastebin",
+                "gist.github",
+                "ghostbin",
+                "ideone",
+                "codepen",
+                "pastefs",
+                "snipplr",
+                "slexy",
+                "justpaste",
+                "0bin",
+                "paste.org"]
 site_urls = ["https://www.whatsapgrouplinks.com/",
              "https://whatsgrouplink.com/",
              "https://realgrouplinks.com/",
              "https://appgrouplink.com/",
              "https://whatsfunda.com/",
              "https://whatzgrouplink.com/latest-whatsapp-group-links/",
+             "https://www.ankuraggarwal.in/share-market-whatsapp-group",
+             "https://www.whatsappgroupsjoinlink.com/stock-market-whatsapp-group-link/",
+             "https://buzzhindi.in/share-market-whatsapp-group-links/",
+             "https://www.activewpgroups.com/index-whatsapp-group-links/",
+             "https://gblink.net/share-market-whatsapp-group-links/",
+             "http://tnedusupport.in/wp.html",
+             "https://sarkariprep.in/govt-jobs-whatsapp-group-link/",
+             "https://urbandesignlab.in/whatsapp-group/",
              "https://allinonetrickz.com/new-whatsapp-groups-invite-links/"]
 
 
@@ -60,7 +78,7 @@ def pad(s):
     return s
 
 
-def scrape(txt, download_image=False):
+def scrape(txt, download_image=True):
     if isinstance(txt, bytes):
         txt = txt.decode("utf-8")
     match = []
