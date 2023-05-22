@@ -31,6 +31,7 @@ python3 whatscraper.py
 
 - [HanzHaxors](https://github.com/HanzHaxors)
 - [MushtaqAlvi](https://github.com/MushtaqAlvi)
+- [itsmeRiF](https://github.com/itsmerif)
 
 #### Credits
 
